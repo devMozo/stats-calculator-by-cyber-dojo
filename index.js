@@ -1,20 +1,46 @@
 
 class StatsCalculator {
 
+    constructor(numberSequence) {
+        this.numberSequence = numberSequence;
+    }
+
     getMinimum() {
-        return -2;
+        let minNumber;
+
+        this.numberSequence.forEach(number => {
+            if(!minNumber || number < minNumber) {
+                minNumber = number;
+            }
+        });
+
+        return minNumber;
     }
 
     getMaximum() {
-        return 92;
+        let maxNumber;
+
+        this.numberSequence.forEach(number => {
+            if(!maxNumber || number > maxNumber) {
+                maxNumber = number;
+            }
+        });
+
+        return maxNumber;
     }
 
     getNumberOfElements() {
-        return 6;
+        return this.numberSequence.length;
     }
 
     getAverage() {
-        return 21.833333;
+        let averageNumber = 0;
+
+        this.numberSequence.forEach(number => {
+            averageNumber += number;
+        });
+
+        return averageNumber / this.getNumberOfElements();
     }
 
 }
