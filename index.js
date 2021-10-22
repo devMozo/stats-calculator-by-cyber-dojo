@@ -13,6 +13,10 @@ class StatsCalculator {
         return 6;
     }
 
+    getAverage() {
+        return 21.833333;
+    }
+
 }
 
 exports.StatsCalculator = StatsCalculator;

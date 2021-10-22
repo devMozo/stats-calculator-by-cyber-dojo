@@ -17,6 +17,10 @@ describe("StatsCalculator", () => {
 
     it('should determine the number of elements in the sequence', () => {
         expect(statsCalculator.getNumberOfElements()).toBe(6);
-    })
+    });
+
+    it('should determine the average number of the whole sequence', () => {
+        expect(statsCalculator.getAverage()).toBe(21.833333);
+    });
 
 });
