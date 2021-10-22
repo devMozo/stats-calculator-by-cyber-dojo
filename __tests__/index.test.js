@@ -15,4 +15,8 @@ describe("StatsCalculator", () => {
         expect(statsCalculator.getMaximum()).toBe(92);
     });
 
+    it('should determine the number of elements in the sequence', () => {
+        expect(statsCalculator.getNumberOfElements()).toBe(6);
+    })
+
 });

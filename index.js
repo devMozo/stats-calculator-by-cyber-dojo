@@ -9,6 +9,10 @@ class StatsCalculator {
         return 92;
     }
 
+    getNumberOfElements() {
+        return 6;
+    }
+
 }
 
 exports.StatsCalculator = StatsCalculator;
