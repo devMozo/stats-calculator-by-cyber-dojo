@@ -1,0 +1,25 @@
+{
+  "name": "stats-calculator-by-cyber-dojo",
+  "version": "1.0.0",
+  "description": "“ Your task is to process a sequence of integer numbers to determine the following statistics:1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devMozo/stats-calculator-by-cyber-dojo.git"
+  },
+  "keywords": [
+    "Kata"
+  ],
+  "author": "Mozo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devMozo/stats-calculator-by-cyber-dojo/issues"
+  },
+  "homepage": "https://github.com/devMozo/stats-calculator-by-cyber-dojo#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
