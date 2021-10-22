@@ -11,4 +11,8 @@ describe("StatsCalculator", () => {
         expect(statsCalculator.getMinimum()).toBe(-2);
     });
 
+    it("should determine the maximum number", () => {
+        expect(statsCalculator.getMaximum()).toBe(92);
+    });
+
 });
