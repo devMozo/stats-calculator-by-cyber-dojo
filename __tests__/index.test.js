@@ -22,7 +22,7 @@ describe.each([
         numberOfElements: 5,
         average: -16
     },
-])("StatsCalculator with %p", (dataToTest) => {
+])("StatsCalculator for $sequence", (dataToTest) => {
     let statsCalculator;
 
     beforeEach(() => {
