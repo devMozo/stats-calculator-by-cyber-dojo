@@ -4,7 +4,7 @@
   "description": "“ Your task is to process a sequence of integer numbers to determine the following statistics:1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
